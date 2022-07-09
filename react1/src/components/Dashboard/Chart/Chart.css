@@ -1,0 +1,298 @@
+/* DASH2 */
+.ChartApp1 {
+	width: 300px;
+}
+.ChartApp3 {
+	display: -webkit-inline-box;
+	gap: 30px;
+}
+/* SORTIE */
+.somme-sortie {
+	padding-top: 20px;
+	width: 290px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: inset 0px -5px 0px 0px rgba(123, 116, 206, 0.82),
+		0px 0px 15px 6px rgb(210 227 241 / 64%);
+}
+.sortie-span-number,
+.entree-span-number {
+	align-items: center;
+	margin-top: -35px;
+	margin-right: 120px;
+	float: right;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.sortie-span-title {
+	margin-top: -60px;
+	margin-right: 18px;
+	float: right;
+	font-size: 15px;
+	color: rgb(100, 100, 100);
+	font-weight: 800;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sortie-span-title,
+.sortie-span-number,
+.entree-span-title,
+.entree-span-number,
+.net-span-title,
+.net-span-number,
+.pnt-span-number,
+.pnt-span-number {
+	display: block;
+}
+.sortie-span-toggle,
+.pnt-span-toggle,
+.entree-span-toggle {
+	margin-top: 15px;
+	margin-left: -245px;
+}
+.sortie-icon {
+	opacity: 1;
+	color: white;
+	font-size: 30px;
+	align-items: center;
+	background-color: rgba(123, 116, 206, 0.82);
+	padding: 3px 13px 6px 8px;
+	border-radius: 6px;
+}
+/* SORTIE */
+.somme-entree {
+	padding-top: 20px;
+	width: 290px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: inset 0px -5px 0px 0px rgba(79, 164, 187, 0.854),
+		0px 0px 15px 6px rgb(210 227 241 / 64%);
+}
+.entree-span-title {
+	margin-top: -60px;
+	margin-right: 18px;
+	float: right;
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+	font-weight: 800;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.entree-icon {
+	color: white;
+	font-size: 30px;
+	align-items: center;
+	background-color: rgba(79, 164, 187, 0.854);
+	padding: 3px 12px 5px 6px;
+	border-radius: 6px;
+}
+/* NET */
+.somme-net {
+	padding-top: 20px;
+	width: 290px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: inset 0px -5px 0px 0px rgba(112, 168, 98, 0.841),
+		0px 0px 15px 6px rgb(210 227 241 / 64%);
+}
+.net-span-number {
+	align-items: center;
+	margin-top: -27px;
+	margin-right: 100px;
+	float: right;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.net-span-title {
+	margin-top: -66px;
+	margin-right: 58px;
+	float: right;
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+	font-weight: 800;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.fa-weight-hanging {
+	color: white;
+	font-size: 30px;
+	align-items: center;
+	background-color: rgba(112, 168, 98, 0.841);
+	padding: 10px 15px 14px 13px;
+	border-radius: 6px;
+} /* PNT */
+.somme-pnt {
+	padding-top: 20px;
+	width: 290px;
+	height: 110px;
+	border-radius: 3px;
+	box-shadow: inset 0px -5px 0px 0px #ff7876c1,
+		0px 0px 15px 6px rgb(210 227 241 / 64%);
+}
+.net-span-toggle {
+	margin-top: 7px;
+	margin-left: -232px;
+}
+.pnt-span-title {
+	margin-top: -67px;
+	margin-right: 14px;
+	float: right;
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+	font-weight: 800;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.pnt-span-toggle {
+	margin-top: 15px;
+	margin-left: -235px;
+}
+.pnt-span-number {
+	align-items: center;
+	margin-top: -30px;
+	margin-right: 113px;
+	float: right;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.bi-file-person {
+	color: white;
+	font-size: 30px;
+	align-items: center;
+	background-color: #ff7876c1;
+	padding: 6px 13px;
+	border-radius: 6px;
+}
+/* SOMME POIDS E/S */
+.ChartApp6 {
+	width: 380px;
+	height: max-content;
+	border-radius: 3px;
+	box-shadow: 0px 0px 15px 6px rgb(210 227 241 / 64%);
+	margin-top: 42px;
+	margin-left: -35px;
+}
+.Chart6-Canva,
+.Chart7-Canva {
+	height: 200px;
+	width: 200px;
+}
+.chart6-div {
+	padding: 0px 20px 40px 70px;
+}
+.chart6-title {
+	padding: 25px 0;
+	font-size: 18px;
+}
+/* PESAGE POIDS E/S */
+.ChartApp7 {
+	width: 380px;
+	height: max-content;
+	border-radius: 3px;
+	box-shadow: 0px 0px 15px 6px rgb(210 227 241 / 64%);
+	margin-top: 55px;
+	margin-left: -35px;
+}
+.chart7-title {
+	padding: 25px 0 10px 0;
+	font-size: 18px;
+}
+.chart7-div {
+	padding: 0px 20px 30px 70px;
+}
+/*  */
+/* Graphe poids NET */
+.ChartApp2 {
+	border-radius: 3px;
+	box-shadow: 0px 0px 15px 6px rgb(210 227 241 / 64%);
+	height: 500px;
+	margin-top: 42px;
+	width: 1260px;
+}
+.Chart2-Canva {
+	height: 350px;
+	width: 1100px;
+}
+.chart2-div {
+	padding: 0px 20px 40px 70px;
+}
+.chart2-title {
+	padding: 25px 50px;
+	font-size: 23px;
+}
+
+/* DASH1 */
+.Chart1 {
+	margin-left: 38px;
+	margin-right: 100px;
+
+	padding: 25px 30px 28px 30px;
+
+	width: 495px;
+	height: 250px;
+	box-shadow: 0 0 10px 5px rgb(122 0 255 / 35%);
+	background-color: #7a00ff;
+}
+.Chart3 {
+	margin-right: 38px;
+	padding: 25px 30px 28px 30px;
+	width: 495px;
+	height: 250px;
+	box-shadow: 0 0 10px 5px rgb(0 187 221 / 35%);
+	background-color: #00bbdd;
+}
+.Chart6 {
+	padding-top: 25px;
+	padding-right: 22px;
+	padding-left: 30px;
+	width: 390px;
+	box-shadow: 0 0 10px 5px rgb(0 182 122 / 35%);
+	background-color: #00b67a;
+	padding-bottom: 25px;
+}
+
+.Chart2 {
+	margin: 40px 30px;
+	width: 700px;
+	padding: 30px 30px 15px 15px;
+	height: 400px;
+	box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+	background-color: white;
+	float: left;
+}
+.Chart5 {
+	margin: 40px 30px;
+	width: 360px;
+	padding: 22px 9px 13px 11px;
+	height: 400px;
+	box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+	float: right;
+}
+.Chart4 {
+	margin-top: 39px;
+	margin-left: 56px;
+	padding-top: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 372px;
+	height: 367px;
+	float: left;
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	background-color: white;
+}
+
+.Chart7 {
+	width: 136px;
+	height: 159px;
+	margin-left: 285px;
+}
+.Chart8 {
+	width: 136px;
+	height: 159px;
+	margin-left: 320px;
+}
+.Chart9 {
+	width: 136px;
+	height: 159px;
+	margin-left: 320px;
+}

@@ -1,0 +1,89 @@
+.featured {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+}
+.featuredItem1 {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 1px rgb(155, 174, 179);
+	background: #3b76ef;
+}
+.featuredItem2 {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 1px rgb(155, 174, 179);
+	background: #63c7ff;
+}
+.featuredItem3 {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 1px rgb(155, 174, 179);
+	background: #a66dd4;
+}
+.featuredItem4 {
+	flex: 1;
+	margin: 0px 20px;
+	padding: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 1px rgb(155, 174, 179);
+	background: #6dd4b1;
+}
+.featuredTitle {
+	color: white;
+	font-size: 22px;
+}
+
+.featuredNumbers {
+	margin: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+.Numbers-div {
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
+.Symbol {
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+.featuredSub {
+	color: white;
+	font-size: 15px;
+}
+
+.bi-box-arrow-in-right,
+.bi-person,
+.bi-box-seam,
+.bi-truck,
+.bi-box-arrow-in-right {
+	margin-left: 30px;
+	margin-top: -4px;
+	font-size: 30px;
+	color: white;
+}
+
+.fa-arrow-left-long-to-line {
+	color: white;
+}
+.IcoItem {
+	/* background-color: aqua;
+    margin-left: 80px; */
+	position: absolute;
+}
+.card-icon-wrapper {
+	display: flex;
+}

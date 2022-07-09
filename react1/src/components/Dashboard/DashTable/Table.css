@@ -1,0 +1,49 @@
+.dash-thead {
+	background-color: white;
+}
+.table-box {
+	margin-left: 33px;
+}
+.dash-table {
+	color: black;
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: rgb(255, 255, 255);
+	border-radius: 6px;
+	overflow: hidden;
+	max-width: 800px;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	margin-right: 35px;
+	margin-left: 20px;
+}
+.dash-thead {
+	color: black;
+	background-color: #fff;
+	padding: 17px 30px;
+	line-height: 16px;
+	font-size: 12px;
+	font-weight: 400;
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+.dash-th {
+	padding: 15px 52px;
+	color: #7e7172;
+	font-size: 14px;
+	font-weight: 400;
+	border-bottom: 1px solidrgba(130, 139, 178, 0.15);
+}
+.dash-td {
+	padding: 15px 0;
+	font-size: 14px;
+	color: #828bb2;
+	font-weight: 400;
+	border: 0 solid transparent;
+}
+.dash-tr2 {
+	border-bottom-width: 1px;
+	border-bottom-color: #e2e2f7;
+}

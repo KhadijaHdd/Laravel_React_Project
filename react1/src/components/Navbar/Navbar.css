@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	margin-top: 0;
+	color: white;
+	text-decoration: none;
+}
+/*  */
+::-webkit-scrollbar {
+	width: 3px;
+	height: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: #eaeaeaca;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #43535e75;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #60748175;
+}
+/*  */
+.nav-bar {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 80;
+	height: 78px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.admin-username {
+	margin-left: 300px;
+	background-color: rgba(255, 127, 80, 0.441);
+	color: rgb(35, 35, 35);
+	font-weight: 700;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo {
+	position: fixed;
+	width: 115px;
+	height: auto;
+	left: 88%;
+	top: 12px;
+	cursor: pointer;
+}
+.menu-toggle-btn {
+	color: white;
+	cursor: pointer;
+	position: fixed;
+	z-index: 100;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	background-color: #014694;
+	margin-top: 18px;
+	border-radius: 50%;
+	box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+	-webkit-transition: all 130ms ease 0s;
+	-moz-transition: all 130ms ease 0s;
+	-o-transition: all 130ms ease 0s;
+	transition: all 130ms ease 0s;
+}
+.sidebar-close {
+	width: 0px;
+	height: 100%;
+	top: 0;
+	left: -200px;
+	display: block;
+	position: fixed;
+	z-index: 90;
+	-webkit-transition: all 130ms ease 0s;
+	-moz-transition: all 130ms ease 0s;
+	-o-transition: all 130ms ease 0s;
+	transition: all 130ms ease 0s;
+}
+.sidebar {
+	background-color: #014694;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	position: fixed;
+	z-index: 90;
+	overflow-y: auto;
+	box-shadow: 10px 0px 15px rgb(0 0 0 / 40%);
+	/* box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.25); */
+	-webkit-transition: all 130ms ease 0s;
+	-moz-transition: all 130ms ease 0s;
+	-o-transition: all 130ms ease 0s;
+	transition: all 130ms ease 0s;
+}
+
+.bi-list::before,
+[class^="bi-list-"]::before,
+[class*=" bi-list-"]::before {
+	font-weight: bold !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	vertical-align: 0;
+	padding-left: 4.5px;
+	padding-top: 4.5px;
+}
+
+.sidebar-menu {
+	padding-top: 63px;
+}
+.sidebar-ul-body {
+	list-style-type: none;
+	display: block;
+	padding-left: 0;
+	margin-left: 0;
+}
+.sidebar-li-body {
+	display: block;
+	margin-top: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.sidebar-li-body:hover {
+	background-color: #06213a63;
+	-webkit-transition: all 200ms ease 0s;
+	-moz-transition: all 200ms ease 0s;
+	-o-transition: all 200ms ease 0s;
+	transition: all 200ms ease 0s;
+}
+.dropdown-btn {
+	text-decoration: none;
+	all: unset;
+}
+.link {
+	text-decoration: none;
+	color: white;
+}
+.link:hover {
+	text-decoration: none;
+	color: white;
+}
+.dropdown-btn,
+.menu-toggle,
+.menu-span {
+	display: inline;
+	padding-left: 12px;
+	font-size: 17px;
+}
+.bi-caret-down-fill,
+.bi-caret-up-fill {
+	padding-left: 89px;
+	font-size: 15px;
+}
+.submenu-span {
+	padding-left: 65px;
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 16px;
+}
+.dropdown-content {
+	background-color: #06213a63;
+}
+.dropdown-content :hover {
+	background-color: #06213a88;
+	border-left: solid #1278d9;
+	-webkit-transition: all 130ms ease 0s;
+	-moz-transition: all 130ms ease 0s;
+	-o-transition: all 130ms ease 0s;
+	transition: all 130ms ease 0s;
+}
+/* FOOTER */
+.sidebar-ul-footer {
+	/* margin-top: 100px; */
+	display: block;
+	padding-left: 0;
+	list-style-type: none;
+}
+.sidebar-li-footer {
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.sidebar-li-footer:hover {
+	background-color: #06213a63;
+	-webkit-transition: all 200ms ease 0s;
+	-moz-transition: all 200ms ease 0s;
+	-o-transition: all 200ms ease 0s;
+	transition: all 200ms ease 0s;
+}
+.dropdown-btn-footer,
+.menu-toggle-footer,
+.menu-span {
+	padding-left: 12px;
+	display: inline;
+}

@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+.body-div {
+	font-size: 13px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo-print,
+.logo-print2 {
+	display: none;
+}
+.table-title-print-div {
+	display: none;
+}
+.table-header {
+	margin: 120px 0 32px 50px;
+	color: rgb(92, 92, 92);
+}
+.table-header-span {
+	padding-left: 15px;
+	font-weight: bold;
+}
+.table-name {
+	text-align: center;
+	letter-spacing: -2px;
+	font-size: 2.5em;
+	font-family: "Nunito", sans-serif;
+	font-family: "Tiro Devanagari Sanskrit", serif;
+}
+.truck-toggle,
+.person-toggle,
+.table-header-span {
+	font-size: 20px;
+}
+.react-bootstrap-table {
+	overflow-x: auto;
+	border-radius: 7px;
+	width: 95%;
+	margin: 0 30px;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+	/* border-width: unset; */
+	border-style: solid;
+	border-color: #4275c10f;
+}
+thead {
+	color: white;
+	background: #4275c1e3;
+	font-size: 13px;
+}
+th,
+td {
+	padding: 5px 0;
+	border-style: none;
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background: #4275c10f;
+}
+
+tbody tr:hover {
+	/* background: #2ca0ff; */
+	background: #4275c11d;
+	color: #686868;
+}
+.form-control {
+	text-align: center;
+	padding: 0;
+	height: 20px;
+}
+.page-item.active .page-link {
+	background-color: #4275c1;
+	border-color: #4275c1;
+}
+.page-link {
+	color: #4275c1;
+}
+.pagination {
+	margin-left: -100px;
+}
+table {
+	caption-side: bottom;
+	border-collapse: none;
+}
+.react-bootstrap-table-page-btns-ul {
+	float: unset;
+	margin-top: 0 !important;
+}
+.react-bootstrap-table-page-btns-ul {
+	float: unset;
+	margin-top: 0 !important;
+}
+#pageDropDown {
+	margin-left: 500px;
+	font-size: 12px;
+	padding-left: 7px;
+	width: 47px;
+	height: 33px;
+	margin-top: 2px;
+}
+.dropdown-menu {
+	z-index: 1000;
+	display: none;
+	width: 10px;
+	padding: 0.5rem 0;
+	margin-left: 490px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #212529;
+	text-align: left;
+	list-style: none;
+	background-color: white;
+	background-clip: padding-box;
+}
+.table-name {
+	text-align: center;
+	margin: 20px;
+	padding-top: 50px;
+}
+
+#Cda-OL-pageDropDown,
+#Cda-pageDropDown,
+#Pnt-pageDropDown,
+#Pnt-OL-pageDropDown,
+#Brr-pageDropDown,
+#BrrOL-pageDropDown,
+#Brr-Pesage-pageDropDown,
+#Brr-Pesage-OL-pageDropDown,
+#BrrOL-pageDropDown {
+	margin-left: 500px;
+	font-size: 12px;
+	padding-left: 7px;
+	width: 47px;
+	height: 33px;
+	margin-top: 2px;
+}
+
+.download-table-xls-button {
+	margin-right: 20px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	font-size: 0.8125rem;
+	line-height: 1.75;
+	letter-spacing: 0.02857em;
+	text-transform: uppercase;
+	min-width: 64px;
+	padding: 4px 10px;
+	border-radius: 4px;
+	user-select: none;
+	vertical-align: middle;
+	background-color: transparent;
+	outline: 0;
+	border: unset;
+}
+.table-bordered td,
+.table-bordered th {
+	border: none;
+}
+.table-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.csv-buttons {
+	margin-bottom: 20px;
+	margin-right: 60px;
+}
+.type-div {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.btn-link {
+	margin-right: 30px;
+	padding: 10px;
+	text-decoration: none;
+	color: #4275c1;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	background-color: #ebebeb;
+	border-radius: 3px;
+	box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+		0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.btn-link:hover {
+	text-decoration: none;
+	color: #4275c1;
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.276),
+		0px 2px 2px 0px rgba(0, 0, 0, 0.268), 0px 1px 5px 0px rgba(0, 0, 0, 0.268);
+}
+@media print {
+	@page {
+		size: landscape;
+		margin: 50px;
+	}
+	.form-control,
+	.order-4,
+	.btn,
+	.table-buttons,
+	.pagination,
+	.table-header-span,
+	.react-bootstrap-table-page-btns-ul {
+		display: none;
+	}
+	.logo-print {
+		display: block;
+		position: relative;
+		width: 122px;
+		height: auto;
+		left: 5%;
+		top: 32px;
+		cursor: pointer;
+		margin-top: -30px;
+		padding-top: 15px;
+	}
+	.logo-print2 {
+		display: block;
+		position: relative;
+		width: 115px;
+		height: auto;
+		left: 88%;
+		top: 12px;
+		margin-top: -60px;
+		cursor: pointer;
+	}
+	.table-name {
+		text-align: center;
+		margin: 20px;
+		padding-top: 50px;
+		font-family: "Cairo", sans-serif;
+	}
+	.date-filter {
+		margin-top: -20px;
+	}
+	thead {
+		background-color: #0764dde5;
+		color: black;
+	}
+	tbody,
+	td,
+	tfoot,
+	th,
+	thead,
+	tr {
+		border: 1px;
+		border-style: solid;
+		border-color: #686868;
+	}
+	tbody tr:nth-child(even) {
+		background: #ffffff;
+		color: #000000;
+	}
+	.table-bordered td,
+	.table-bordered th {
+		border: 1px;
+		border-style: solid;
+		border-color: #686868;
+	}
+	.table-name-print {
+		font-size: 20px;
+		font-weight: bold;
+		color: black;
+	}
+	.table-title-print-div {
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		display: flex;
+		margin-bottom: 20px;
+	}
+}
